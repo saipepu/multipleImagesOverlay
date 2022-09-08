@@ -32,7 +32,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script>
     var textWrapper = document.querySelector('.title');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>")
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\D/g, "<span class='letter'>$&</span>")
     console.log('hi')
     anime.timeline().add({
       targets: ".title .letter",

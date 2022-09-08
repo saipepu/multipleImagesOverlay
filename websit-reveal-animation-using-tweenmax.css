@@ -90,6 +90,10 @@ body {
   font-size: 10em;
   color: #393833;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .title .letter {
